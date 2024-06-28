@@ -51,7 +51,7 @@
 
 }
 .header__span-accent {
-   font-family: Noto "Serif";
+   font-family: "Noto Serif";
    font-style: italic;  
    font-weight: normal; 
    font-size: 58px;   
@@ -73,7 +73,7 @@
 }
 
 .header__description {
-   font-family: Noto "Serif";
+   font-family: "Noto Serif";
    font-style: normal;
    font-weight: normal;
    font-size: 20px;
