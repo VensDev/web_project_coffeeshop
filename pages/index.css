@@ -22,7 +22,7 @@ body{
    height: 100vh;
 
 }
-.logo {
+.nav {
    display: flex;
    justify-content: space-between;
 }
@@ -107,7 +107,7 @@ body{
 
 }
 
-.paragraph{
+.header__paragraph{
    margin: 0;
    bottom: 40px;
    left: 80px;
@@ -119,7 +119,7 @@ body{
    color: #838383
 }
 
-.paragraph-subtitle{
+.header__paragraph-subtitle{
    margin: 0;
    right: 80px;
    bottom: 40px;
