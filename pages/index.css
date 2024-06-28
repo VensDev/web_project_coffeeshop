@@ -4,6 +4,8 @@
    line-height: 20px;
    font-family: 'Inter', Arial, sans-serif;
    margin: 0 auto;
+   min-width: 1100px;
+   max-width: 1600px;
 
 }
 
@@ -44,7 +46,7 @@
    font-size: 16px;
    line-height: 20px;
 }
-.header{
+.header__content{
    display: block;
    margin: 0;
    max-width: 709px;
