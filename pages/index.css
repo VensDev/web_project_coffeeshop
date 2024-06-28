@@ -17,10 +17,12 @@ body{
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   margin: 0;
-   padding: 0;
+   display: flex;
+   flex-direction: column; 
+   padding: 30px 80px 40px;
+   min-height: 720px;
+   max-height: 800px;
    height: 100vh;
-
 }
 .nav {
    display: flex;
@@ -31,29 +33,29 @@ body{
    position: relative;
    width: 105px;
    height: 39px;
-   margin: 30px auto 0 30px;
+   left: -30px;
 }
 
 .nav__links {
    display: flex;
    gap: 20px;
-   margin: 30px 80px 0 0;
    list-style-type: none;
+   margin: 0;
+   padding: 0;
 }
 
 .nav__link {
    text-decoration: none;
    color: #000;
-   font-family: "inter";
+   font-family: "Inter";
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
 }
-.header{
+.header__content{
    display: block;
-   margin: 0;
-   padding: 30px 80px 40px;
+
 }
 .header__span-accent {
    font-family: "Noto Serif";
@@ -62,19 +64,19 @@ body{
    font-size: 58px;   
    line-height: 72px; 
    color: #2F80ED;
-   margin-top: 183px;
-   max-width: 709px;
+   
 }
 
 .header__title {
-   font-family: "inter";
+   font-family: "Inter";
    font-style: normal;
    font-weight: 500;
    font-size: 58px;
    line-height: 72px;
-   letter-spacing: 1px;
-
+   letter-spacing: -1px;
+   margin: 183px 0 0;
    max-width: 709px;
+  
 }
 
 .header__description {
@@ -84,9 +86,8 @@ body{
    font-size: 20px;
    line-height: 30px;
    margin: 0;
-   margin-left: 80px;
+   max-width: 683px;
    padding-top: 28px;
-   max-width: 689px;
 }
 
 .header__image {
@@ -100,9 +101,9 @@ body{
 .header__footer {
    margin-top: auto;
    display: flex;
-   flex-direction: column;
+   width: 100%;
    justify-content: space-between;
-  
+   align-items: flex-end;
 }
 
 .header__paragraph{
@@ -114,20 +115,8 @@ body{
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
-   color: #838383
-}
-
-.header__paragraph-subtitle{
-   margin: 0;
-   right: 80px;
-   bottom: 40px;
-   position: absolute;
-   font-family: "inter";
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 20px;
-   color: #838383
+   color: #838383;
+  
 }
 
 .recipes{
