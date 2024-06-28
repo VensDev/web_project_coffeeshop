@@ -53,10 +53,10 @@ body{
    font-size: 16px;
    line-height: 20px;
 }
-.header__content{
+/* .header__content{
    display: block;
 
-}
+} */
 .header__span-accent {
    font-family: "Noto Serif";
    font-style: italic;  
