@@ -1,7 +1,16 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
+@import url("../blocks/nav.css");
+@import url("../blocks/recipes.css");
+@import url("../blocks/reservation.css");
+@import url("../blocks/form.css");
+@import url("../blocks/footer.css");
+
 body{
    margin: 0;
 }
-.page{    
+/* .page{    
    font-size: 16px;
    line-height: 20px;
    font-family: 'Inter', Arial, sans-serif;
@@ -9,9 +18,9 @@ body{
    min-width: 1100px;
    max-width: 1600px;
 
-}
+} */
 
-.header{
+/* .header{
    background-color: #ffffff;
    background-image: url('../images/background_header.svg');
    background-repeat: no-repeat;
@@ -23,8 +32,9 @@ body{
    min-height: 720px;
    max-height: 800px;
    height: 100vh;
-}
-.nav {
+} */
+
+/* .nav {
    display: flex;
    justify-content: space-between;
 }
@@ -52,9 +62,9 @@ body{
    font-weight: 500;
    font-size: 16px;
    line-height: 20px;
-}
+} */
 
-.header__span-accent {
+/* .header__span-accent {
    font-family: "Noto Serif";
    font-style: italic;  
    font-weight: normal; 
@@ -86,7 +96,7 @@ body{
    max-width: 683px;
    padding-top: 28px;
 }
-/* arrumar imagem quando maximizado */
+
 .header__image {
    position: absolute;
    width: 646px;
@@ -114,9 +124,9 @@ body{
    line-height: 20px;
    color: #838383;
   
-}
+} */
 
-.recipes{
+/* .recipes{
    background-image: url(../images/background_recipes.svg);
    background-color: #0a2750;
 
@@ -169,9 +179,9 @@ body{
    color: #ffffff;
    margin: 0;
    padding-top: 24px;
-}
-/* checar linha a linha apartir daqui */
-.reservation{
+} */
+
+/* .reservation{
    background-image: url(../images/background_reservation.svg);
    background-color: #D9E7FF;
    background-repeat: no-repeat;
@@ -194,8 +204,8 @@ body{
 .reservation__form {
    margin: 0 auto;
 
-}
-.form{
+} */
+/* .form{
    max-width: 385px;
  
 }
@@ -224,14 +234,6 @@ body{
    box-sizing: border-box;
    width: 100%;
 }
-
-/* .form__input--text,
-.form__input--number,
-.form__input--datetime,
-.form__input--email {
-   display: block;
-} */
-
 
 .form__button {
    background-color: #2f80ed;
@@ -267,5 +269,5 @@ body{
    width: 20px;
    height: 20px;
    margin: 0;
-}
+} */
 
